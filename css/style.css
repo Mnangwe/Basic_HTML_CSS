@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(108, 108, 151);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    
+}
+.logo {
+    padding: 10px;
+}
+.logo img {
+    border-radius: 50%;
+}
+.nav-links ul {
+    display: flex;
+}
+.link{
+    list-style: none;
+}
+.link a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 7px;
+}
+.toggler {
+    display: none;
+}
+.container {
+    padding: 0 7.5%;
+    height: 600px;
+}
+#landing-page {
+    padding-top: 120px;
+    /* margin-bottom: 10px; */
+}
+.content {
+    float: right;
+    padding-top: 150px;
+    width: 50%;
+}
+.image {
+    float: left;
+    width: 40%;
+    /* margin-left: 7%; */
+}
+/* #testimony { */
+    /* padding-top: 120px; */
+/* }
+ */
+.image img {
+    height: 400px;
+}
+h2 {
+    text-align: center;
+}
+@media screen and (max-width: 560px) {
+    .nav-links ul{
+        display: none;
+    }
+    .toggler {
+        display: inline;
+    }
+}
